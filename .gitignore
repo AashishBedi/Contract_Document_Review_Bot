@@ -1,0 +1,35 @@
+# Environment variables — never commit real keys
+.env
+.env.example
+# Note: .env.example is intentionally NOT ignored — it's safe to commit
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
